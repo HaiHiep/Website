@@ -37,15 +37,9 @@
 </head>
 <body>
 @include('shared.header')
-@include('shared.banner')
-@include('shared.feature')
-@include('shared.category')
-@include('shared.content')
-@include('shared.deal')
-@include('shared.brand')
-@include('shared.relate')
-@include('shared.footer')
 @yield('content')
+@include('shared.footer')
+
 <script type="text/javascript" src="{!! asset('js/vendor/jquery-2.2.4.min.js') !!}"></script>
 
 
