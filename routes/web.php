@@ -22,3 +22,7 @@ Auth::routes();
 Route::get('/login',function (){
     return view('login');
 });
+
+Route::get('/categories', function (){
+   return view('category');
+});
